@@ -1,0 +1,18 @@
+# data/fixtures/vehicle.yml
+ShowmobileVehicle:
+  1:
+    year: 2002
+    make: "Ford"
+    model: "Taurus"
+    submodel: "LX"
+    doors: 4
+    seats: 6
+    # gpm
+  2:
+    year: 1985
+    make: "Ford"
+    model: "Mustang"
+    submodel: "LX"
+    doors: 2
+    seats: 4
+    #gpm

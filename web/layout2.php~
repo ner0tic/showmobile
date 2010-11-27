@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+  <head> 
+    <title>ShowMobile -  Hitchin' A Ride!</title> 
+ 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+    <meta name="title" content="ShowMobile | hitchin' a ride!" /> 
+    <meta name="robots" content="index, follow, all" /> 
+    <meta name="author" content="[vs]" /> 
+    <meta name="keywords" content="party"/> 
+    
+    <link rel="stylesheet" type="text/css" media="all" href="/css/theme/default/reset.css" /> 
+    
+    </head>
+    <body>
+        <div id="content" class="home">
+            <div class="header">
+                <div class="header_content">
+                    <div class="logo"><a href="<?php echo PHP_SELF;?>"><img src="/images/logo_large.png" alt="showmobile - hitchin' a ride!" /></a></div>
+                    <div class="menu">
+                        <ul class="main_menu">
+                            <li class="first"> 
+                                <a class="button button_menu png_fix" href="/show"> 
+                                    <span><span><span>       Shows    </span></span></span> 
+                                </a> 
+                            </li> 
+                            <li class=""> 
+                                <a class="button button_menu png_fix" href="/venue"> 
+                                    <span><span><span>       Venue    </span></span></span> 
+                                </a> 
+                            </li> 
+                            <li class=""> 
+                                <a class="button button_menu png_fix" href="/faq"> 
+                                    <span><span><span>       FAQ    </span></span></span> 
+                                </a> 
+                            </li> 
+                            <li class=""> 
+                                <a class="button button_menu png_fix" href="/contact"> 
+                                    <span><span><span>       Contact    </span></span></span> 
+                                </a> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div>
+            </div>

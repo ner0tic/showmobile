@@ -1,0 +1,10 @@
+# band.yml
+ShowmobileBand:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: { type: string, notnull: true }
+    bio: { type: string }
+    url: { type: string }
+    email: { type: string }
+    logo: { type: string }
+    image: { type: string, notnull: true, default: "default.png" }

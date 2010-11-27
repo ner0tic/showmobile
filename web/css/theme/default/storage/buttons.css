@@ -1,0 +1,133 @@
+/* --- DEBUT - Boutons 01 --- */
+.button_01,
+.button_02,
+.button_03
+{
+  display: block;
+  background: #C5F15D url(/images/common/background/button_01.gif) repeat-x left bottom;
+  font-weight: bold;
+  color: #1d8597;
+  text-decoration: none;
+  padding: 5px 29px 5px 14px;
+  margin-top: 12px;
+  position: relative;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.training_order table .button_01
+{
+  margin-top: 0;
+}
+.button_03
+{
+  color:white;
+  background: #ee613b url(/images/common/background/button_03.gif) repeat-x left top;
+}
+.button_02,
+.button_03
+{
+  padding-right: 14px;
+}
+
+.button_01:hover,
+.button_02:hover,
+.button_03:hover
+{
+  color: #1d8597;
+  text-decoration: none;
+}
+.button_03:hover
+{
+  color:white;
+}
+.button_01 .arrow
+{
+  top: 7px;
+  right: 14px;
+  width: 8px;
+  height: 12px;
+  background: transparent url(/images/common/picto/mark_1D8597.png) no-repeat left top;
+}
+/* --- FIN - Bouton 01 --- */
+
+/* --- DEBUT - Common arrow  --- */
+.arrow
+{
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+}
+/* --- FIN - Common arrow  --- */
+
+/* --- DEBUT - Factorisation Boutons --- */
+
+button.button
+{
+  _height:auto;
+}
+a.button:hover,
+a.button_block:hover
+{
+  text-decoration: none;
+}
+
+.button,
+.button_block,
+button
+{
+  text-decoration:none;
+  display:-moz-inline-box;
+  display:inline-block;
+  margin:0 0 0 0;
+  padding:0 0 0 0;
+  white-space:nowrap;
+  text-align:left;
+  vertical-align:middle;
+  cursor:pointer;
+  border:0;
+  background:none;
+}
+
+.button span
+{
+  text-decoration:none;
+  display:block;
+  float:left;
+  padding:0 0 0 4px;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-position: left top;
+}
+
+.button span span
+{
+  text-decoration:none;
+  padding:0 4px 0 0;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-position: right top;
+}
+
+.button span span span
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+  padding:0 5px 0 10px;
+  _width: expression( (this.firstChild.clientWidth%2) ? "auto" : (this.firstChild.clientWidth + 1) + "px");
+  background-color:transparent;
+  background-repeat:repeat-x;
+  background-position: left top;
+}
+
+.button .arrow,
+.button span span span .arrow
+{
+  _display:inline-block;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  background-position: right 50%;
+}
+
+/* --- FIN - Factorisation Boutons --- */

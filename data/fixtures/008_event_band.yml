@@ -1,0 +1,11 @@
+# sm.showmobile_event_band
+ShowmobileEventBand:
+  1:
+    showmobile_event_id: 1
+    showmobile_band_id: 1
+  2:
+    showmobile_event_id: 1
+    showmobile_band_id: 2
+  3:
+    showmobile_event_id: 1
+    showmobile_band_id: 3

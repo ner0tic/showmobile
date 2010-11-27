@@ -1,0 +1,40 @@
+#content
+{
+  background:#fff url(/images/theme/default/bg_header.png) no-repeat center top;
+}
+
+#content.home
+{
+  background-image:url(/images/common/header/home_bg.jpg);
+}
+.header
+{
+  height: 133px;
+}
+
+.home .header
+{
+  height: 249px;
+}
+
+.header .logo
+{
+  padding-top: 21px;
+  float: left;
+}
+
+.header .menu
+{
+  width: 608px;
+  padding-top: 20px;
+  float: left;
+}
+
+.header_content
+{
+  width:960px;
+  margin:0 auto;
+  position:relative;
+  top:0;
+  left:0;
+}

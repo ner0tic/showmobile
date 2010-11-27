@@ -1,0 +1,32 @@
+sfGuardUser:
+  User_admin:
+    first_name:     David
+    last_name:      Durost
+    email_address:  david.durost@gmail.com
+    username:       ner0tic
+    password:       gatorade
+    is_super_admin: true
+    Groups:         [Group_admin]
+  User_normal:
+    first_name:     Matt
+    last_name:      Farmer
+    email_address:  matt@mattfarmer.net
+    password:       password
+    is_super_admin: false
+    
+
+sfGuardUserProfile:
+  Profile_admin:
+    user_id: 1
+    address_id: 2
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission

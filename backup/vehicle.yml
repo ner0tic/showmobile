@@ -1,0 +1,10 @@
+# vehicle.yml
+ShowmobileVehicle:
+  actAs: { Timestampable: ~ }
+  columns:
+    year: { type: int, notnull: true }
+    make: { type: string, notnull: true}
+    model: { type: string, notnull: true}
+    submodel: { type: string }
+    doors: { type: int }
+    seats: { type: int }

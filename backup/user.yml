@@ -1,0 +1,9 @@
+#user.yml
+ShowmobileUser:
+  actAs: { Timestampable: ~ }
+  columns:
+    fname: { type: string(100), notnull: true }
+    lname: { type: string(100), notnull: true }
+    dob: { type: timestamp, notnull: true }
+    email: { type: string(255), notnull: true }
+    passwd: { type: string(255), notnull: true }

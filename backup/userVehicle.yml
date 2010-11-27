@@ -1,0 +1,7 @@
+# UserVehicle.yml
+ShowmobileUserVehicle:
+  actAs: { Timestampable: ~ }
+  columns:
+    user_id: { type: int, notnull: true }
+    vehicle_id: { type: int, notnull: true }
+    vehicle_color_id: { type: int }

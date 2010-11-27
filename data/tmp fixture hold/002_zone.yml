@@ -1,0 +1,910 @@
+#/data/fixtures/zone.yml
+ShowmobileZone:
+  1:
+#    id: 1
+    country_id: 223
+    code: AL
+    name: Alabama
+  2:
+#    id: 2
+    country_id: 223
+    code: AK
+    name: Alaska
+  3:
+#    id: 3
+    country_id: 223
+    code: AS
+    name: American Samoa
+  4:
+#    id: 4
+    country_id: 223
+    code: AZ
+    name: Arizona
+  5:
+#    id: 5
+    country_id: 223
+    code: AR
+    name: Arkansas
+  6:
+#    id: 6
+    country_id: 223
+    code: AF
+    name: Armed Forces Africa
+  7:
+#    id: 7
+    country_id: 223
+    code: AA
+    name: Armed Forces Americas
+  8:
+#    id: 8
+    country_id: 223
+    code: AC
+    name: Armed Forces Canada
+  9:
+#    id: 9
+    country_id: 223
+    code: AE
+    name: Armed Forces Europe
+  10:
+#    id: 10
+    country_id: 223
+    code: AM
+    name: Armed Forces Middle East
+  11:
+#    id: 11
+    country_id: 223
+    code: AP
+    name: Armed Forces Pacific
+  12:
+#    id: 12
+    country_id: 223
+    code: CA
+    name: California
+  13:
+#    id: 13
+    country_id: 223
+    code: CO
+    name: Colorado
+  14:
+#    id: 14
+    country_id: 223
+    code: CT
+    name: Connecticut
+  15:
+#    id: 15
+    country_id: 223
+    code: DE
+    name: Delaware
+  16:
+#    id: 16
+    country_id: 223
+    code: DC
+    name: District of Columbia
+  17:
+#    id: 17
+    country_id: 223
+    code: FM
+    name: Federated States Of Micronesia
+  18:
+#    id: 18
+    country_id: 223
+    code: FL
+    name: Florida
+  19:
+#    id: 19
+    country_id: 223
+    code: GA
+    name: Georgia
+  20:
+#    id: 20
+    country_id: 223
+    code: GU
+    name: Guam
+  21:
+#    id: 21
+    country_id: 223
+    code: HI
+    name: Hawaii
+  22:
+#    id: 22
+    country_id: 223
+    code: ID
+    name: Idaho
+  23:
+#    id: 23
+    country_id: 223
+    code: IL
+    name: Illinois
+  24:
+#    id: 24
+    country_id: 223
+    code: IN
+    name: Indiana
+  25:
+#    id: 25
+    country_id: 223
+    code: IA
+    name: Iowa
+  26:
+#    id: 26
+    country_id: 223
+    code: KS
+    name: Kansas
+  27:
+#    id: 27
+    country_id: 223
+    code: KY
+    name: Kentucky
+  28:
+#    id: 28
+    country_id: 223
+    code: LA
+    name: Louisiana
+  29:
+#    id: 29
+    country_id: 223
+    code: ME
+    name: Maine
+  30:
+#    id: 30
+    country_id: 223
+    code: MH
+    name: Marshall Islands
+  31:
+#    id: 31
+    country_id: 223
+    code: MD
+    name: Maryland
+  32:
+#    id: 32
+    country_id: 223
+    code: MA
+    name: Massachusetts
+  33:
+#    id: 33
+    country_id: 223
+    code: MI
+    name: Michigan
+  34:
+#    id: 34
+    country_id: 223
+    code: MN
+    name: Minnesota
+  35:
+#    id: 35
+    country_id: 223
+    code: MS
+    name: Mississippi
+  36:
+#    id: 36
+    country_id: 223
+    code: MO
+    name: Missouri
+  37:
+#    id: 37
+    country_id: 223
+    code: MT
+    name: Montana
+  38:
+#    id: 38
+    country_id: 223
+    code: NE
+    name: Nebraska
+  39:
+#    id: 39
+    country_id: 223
+    code: NV
+    name: Nevada
+  40:
+#    id: 40
+    country_id: 223
+    code: NH
+    name: New Hampshire
+  41:
+#    id: 41
+    country_id: 223
+    code: NJ
+    name: New Jersey
+  42:
+#    id: 42
+    country_id: 223
+    code: NM
+    name: New Mexico
+  43:
+#    id: 43
+    country_id: 223
+    code: NY
+    name: New York
+  44:
+#    id: 44
+    country_id: 223
+    code: NC
+    name: North Carolina
+  45:
+#    id: 45
+    country_id: 223
+    code: ND
+    name: North Dakota
+  46:
+#    id: 46
+    country_id: 223
+    code: MP
+    name: Northern Mariana Islands
+  47:
+#    id: 47
+    country_id: 223
+    code: OH
+    name: Ohio
+  48:
+#    id: 48
+    country_id: 223
+    code: OK
+    name: Oklahoma
+  49:
+#    id: 49
+    country_id: 223
+    code: OR
+    name: Oregon
+  50:
+#    id: 50
+    country_id: 223
+    code: PW
+    name: Palau
+  51:
+#    id: 51
+    country_id: 223
+    code: PA
+    name: Pennsylvania
+  52:
+#    id: 52
+    country_id: 223
+    code: PR
+    name: Puerto Rico
+  53:
+#    id: 53
+    country_id: 223
+    code: RI
+    name: Rhode Island
+  54:
+#    id: 54
+    country_id: 223
+    code: SC
+    name: South Carolina
+  55:
+#    id: 55
+    country_id: 223
+    code: SD
+    name: South Dakota
+  56:
+#    id: 56
+    country_id: 223
+    code: TN
+    name: Tennessee
+  57:
+#    id: 57
+    country_id: 223
+    code: TX
+    name: Texas
+  58:
+#    id: 58
+    country_id: 223
+    code: UT
+    name: Utah
+  59:
+#    id: 59
+    country_id: 223
+    code: VT
+    name: Vermont
+  60:
+#    id: 60
+    country_id: 223
+    code: VI
+    name: Virgin Islands
+  61:
+#    id: 61
+    country_id: 223
+    code: VA
+    name: Virginia
+  62:
+#    id: 62
+    country_id: 223
+    code: WA
+    name: Washington
+  63:
+#    id: 63
+    country_id: 223
+    code: WV
+    name: West Virginia
+  64:
+#    id: 64
+    country_id: 223
+    code: WI
+    name: Wisconsin
+  65:
+#    id: 65
+    country_id: 223
+    code: WY
+    name: Wyoming
+  66:
+#    id: 66
+    country_id: 38
+    code: AB
+    name: Alberta
+  67:
+#    id: 67
+    country_id: 38
+    code: BC
+    name: British Columbia
+  68:
+#    id: 68
+    country_id: 38
+    code: MB
+    name: Manitoba
+  69:
+#    id: 69
+    country_id: 38
+    code: NF
+    name: Newfoundland
+  70:
+#    id: 70
+    country_id: 38
+    code: NB
+    name: New Brunswick
+  71:
+#    id: 71
+    country_id: 38
+    code: NS
+    name: Nova Scotia
+  72:
+#    id: 72
+    country_id: 38
+    code: NT
+    name: Northwest Territories
+  73:
+#    id: 73
+    country_id: 38
+    code: NU
+    name: Nunavut
+  74:
+#    id: 50
+    country_id: 38
+    code: 'ON'
+    name: Ontario
+  75:
+#    id: 75
+    country_id: 38
+    code: PE
+    name: Prince Edward Island
+  76:
+#    id: 76
+    country_id: 38
+    code: QC
+    name: Quebec
+  77:
+#    id: 77
+    country_id: 38
+    code: SK
+    name: Saskatchewan
+  78:
+#    id: 78
+    country_id: 38
+    code: YT
+    name: Yukon Territory
+##
+## EVERYTHING WORKS ABOVE THIS LINE
+##
+  79:
+#    id: 79
+    country_id: 81
+    code: NDS
+    name: Niedersachsen
+  80:
+#    id: 80
+    country_id: 81
+    code: BAW
+    name: Baden-Wrttemberg
+  81:
+#    id: 81
+    country_id: 81
+    code: BAY
+    name: Bayern
+  82:
+#    id: 82
+    country_id: 81
+    code: BER
+    name: Berlin
+  83:
+#    id: 83
+    country_id: 81
+    code: BRG
+    name: Brandenburg
+  84:
+#    id: 84
+    country_id: 81
+    code: BRE
+    name: Bremen
+  85:
+#    id: 85
+    country_id: 81
+    code: HAM
+    name: Hamburg
+  86:
+#    id: 86
+    country_id: 81
+    code: HES
+    name: Hessen
+  87:
+#    id: 87
+    country_id: 81
+    code: MEC
+    name: Mecklenburg-Vorpommern
+  88:
+#    id: 88
+    country_id: 81
+    code: NRW
+    name: Nordrhein-Westfalen
+  89:
+#    id: 89
+    country_id: 81
+    code: RHE
+    name: Rheinland-Pfalz
+  90:
+#    id: 90
+    country_id: 81
+    code: SAR
+    name: Saarland
+  91:
+#    id: 91
+    country_id: 81
+    code: SAS
+    name: Sachsen
+  92:
+#    id: 92
+    country_id: 81
+    code: SAC
+    name: Sachsen-Anhalt
+  93:
+#    id: 93
+    country_id: 81
+    code: SCN
+    name: Schleswig-Holstein
+  94:
+#    id: 94
+    country_id: 81
+    code: THE
+    name: Thringen
+  95:
+#    id: 95
+    country_id: 14
+    code: WI
+    name: Wien
+  96:
+#    id: 96
+    country_id: 14
+    code: 'NO'
+    name: Niedersterreich
+  97:
+#    id: 97
+    country_id: 14
+    code: OO
+    name: Obersterreich
+  98:
+#    id: 98
+    country_id: 14
+    code: SB
+    name: Salzburg
+  99:
+#    id: 99
+    country_id: 14
+    code: KN
+    name: Krnten
+  100:
+#    id: 100
+    country_id: 14
+    code: ST
+    name: Steiermark
+  101:
+#    id: 101
+    country_id: 14
+    code: TI
+    name: Tirol
+  102:
+#    id: 102
+    country_id: 14
+    code: BL
+    name: Burgenland
+  103:
+#    id: 103
+    country_id: 14
+    code: VB
+    name: Voralberg
+  104:
+#    id: 104
+    country_id: 204
+    code: AG
+    name: Aargau
+  105:
+#    id: 105
+    country_id: 204
+    code: AI
+    name: Appenzell Innerrhoden
+  106:
+#    id: 106
+    country_id: 204
+    code: AR
+    name: Appenzell Ausserrhoden
+  107:
+#    id: 107
+    country_id: 204
+    code: BE
+    name: Bern
+  108:
+#    id: 108
+    country_id: 204
+    code: BL
+    name: Basel-Landschaft
+  109:
+#    id: 109
+    country_id: 204
+    code: BS
+    name: Basel-Stadt
+  110:
+#    id: 110
+    country_id: 204
+    code: FR
+    name: Freiburg
+  111:
+#    id: 111
+    country_id: 204
+    code: GE
+    name: Genf
+  112:
+#    id: 112
+    country_id: 204
+    code: GL
+    name: Glarus
+  113:
+#    id: 113
+    country_id: 204
+    code: JU
+    name: Graubnden
+  114:
+#    id: 114
+    country_id: 204
+    code: JU
+    name: Jura
+  115:
+#    id: 115
+    country_id: 204
+    code: LU
+    name: Luzern
+  116:
+#    id: 116
+    country_id: 204
+    code: NE
+    name: Neuenburg
+  117:
+#    id: 117
+    country_id: 204
+    code: NW
+    name: Nidwalden
+  118:
+#    id: 118
+    country_id: 204
+    code: OW
+    name: Obwalden
+  119:
+#    id: 119
+    country_id: 204
+    code: SG
+    name: St. Gallen
+  120:
+#    id: 120
+    country_id: 204
+    code: SH
+    name: Schaffhausen
+  121:
+#    id: 121
+    country_id: 204
+    code: SO
+    name: Solothurn
+  122:
+#    id: 122
+    country_id: 204
+    code: SZ
+    name: Schwyz
+  123:
+#    id: 123
+    country_id: 204
+    code: TG
+    name: Thurgau
+  124:
+#    id: 124
+    country_id: 204
+    code: TI
+    name: Tessin
+  125:
+#    id: 125
+    country_id: 204
+    code: UR
+    name: Uri
+  126:
+#    id: 126
+    country_id: 204
+    code: VD
+    name: Waadt
+  127:
+#    id: 127
+    country_id: 204
+    code: VS
+    name: Wallis
+  128:
+#    id: 128
+    country_id: 204
+    code: ZG
+    name: Zug
+  129:
+#    id: 129
+    country_id: 204
+    code: ZH
+    name: Zrich
+  130:
+#    id: 130
+    country_id: 195
+    code: A Corua
+    name: A Corua
+  131:
+#    id: 131
+    country_id: 195
+    code: Alava
+    name: Alava
+  132:
+#    id: 132
+    country_id: 195
+    code: Albacete
+    name: Albacete
+  133:
+#    id: 133
+    country_id: 195
+    code: Alicante
+    name: Alicante
+  134:
+#    id: 134
+    country_id: 195
+    code: Almeria
+    name: Almeria
+  135:
+#    id: 135
+    country_id: 195
+    code: Asturias
+    name: Asturias
+  136:
+#    id: 136
+    country_id: 195
+    code: Avila
+    name: Avila
+  137:
+#    id: 137
+    country_id: 195
+    code: Badajoz
+    name: Badajoz
+  138:
+#    id: 138
+    country_id: 195
+    code: Baleares
+    name: Baleares
+  139:
+#    id: 139
+    country_id: 195
+    code: Barcelona
+    name: Barcelona
+  140:
+#    id: 140
+    country_id: 195
+    code: Burgos
+    name: Burgos
+  141:
+#    id: 141
+    country_id: 195
+    code: Caceres
+    name: Caceres
+  142:
+#    id: 142
+    country_id: 195
+    code: Cadiz
+    name: Cadiz
+  143:
+#    id: 143
+    country_id: 195
+    code: Cantabria
+    name: Cantabria
+  144:
+#    id: 144
+    country_id: 195
+    code: Castellon
+    name: Castellon
+  145:
+#    id: 145
+    country_id: 195
+    code: Ceuta
+    name: Ceuta
+  146:
+#    id: 146
+    country_id: 195
+    code: Ciudad Real
+    name: Ciudad Real
+  147:
+#    id: 147
+    country_id: 195
+    code: Cordoba
+    name: Cordoba
+  148:
+#    id: 148
+    country_id: 195
+    code: Cuenca
+    name: Cuenca
+  149:
+#    id: 149
+    country_id: 195
+    code: Girona
+    name: Girona
+  150:
+#    id: 150
+    country_id: 195
+    code: Granada
+    name: Granada
+  151:
+#    id: 151
+    country_id: 195
+    code: Guadalajara
+    name: Guadalajara
+  152:
+#    id: 152
+    country_id: 195
+    code: Guipuzcoa
+    name: Guipuzcoa
+  153:
+#    id: 153
+    country_id: 195
+    code: Huelva
+    name: Huelva
+  154:
+#    id: 154
+    country_id: 195
+    code: Huesca
+    name: Huesca
+  155:
+#    id: 155
+    country_id: 195
+    code: Jaen
+    name: Jaen
+  156:
+#    id: 156
+    country_id: 195
+    code: La Rioja
+    name: La Rioja
+  157:
+#    id: 157
+    country_id: 195
+    code: Las Palmas
+    name: Las Palmas
+  158:
+#    id: 158
+    country_id: 195
+    code: Leon
+    name: Leon
+  159:
+#    id: 159
+    country_id: 195
+    code: Lleida
+    name: Lleida
+  160:
+#    id: 160
+    country_id: 195
+    code: Lugo
+    name: Lugo
+  161:
+#    id: 161
+    country_id: 195
+    code: Madrid
+    name: Madrid
+  162:
+#    id: 162
+    country_id: 195
+    code: Malaga
+    name: Malaga
+  163:
+#    id: 163
+    country_id: 195
+    code: Melilla
+    name: Melilla
+  164:
+#    id: 164
+    country_id: 195
+    code: Murcia
+    name: Murcia
+  165:
+#    id: 165
+    country_id: 195
+    code: Navarra
+    name: Navarra
+  166:
+#    id: 166
+    country_id: 195
+    code: Ourense
+    name: Ourense
+  167:
+#    id: 167
+    country_id: 195
+    code: Palencia
+    name: Palencia
+  168:
+#    id: 168
+    country_id: 195
+    code: Pontevedra
+    name: Pontevedra
+  169:
+#    id: 169
+    country_id: 195
+    code: Salamanca
+    name: Salamanca
+  170:
+#    id: 170
+    country_id: 195
+    code: Santa Cruz de Tenerife
+    name: Santa Cruz de Tenerife
+  171:
+#    id: 171
+    country_id: 195
+    code: Segovia
+    name: Segovia
+  172:
+#    id: 172
+    country_id: 195
+    code: Sevilla
+    name: Sevilla
+  173:
+#    id: 173
+    country_id: 195
+    code: Soria
+    name: Soria
+  174:
+#    id: 174
+    country_id: 195
+    code: Tarragona
+    name: Tarragona
+  175:
+#    id: 175
+    country_id: 195
+    code: Teruel
+    name: Teruel
+  176:
+#    id: 176
+    country_id: 195
+    code: Toledo
+    name: Toledo
+  177:
+#    id: 177
+    country_id: 195
+    code: Valencia
+    name: Valencia
+  178:
+#    id: 178
+    country_id: 195
+    code: Valladolid
+    name: Valladolid
+  179:
+#    id: 179
+    country_id: 195
+    code: Vizcaya
+    name: Vizcaya
+  180:
+#    id: 180
+    country_id: 195
+    code: Zamora
+    name: Zamora
+  181:
+#    id: 181
+    country_id: 195
+    code: Zaragoza
+    name: Zaragoza

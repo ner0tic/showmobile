@@ -1,0 +1,6 @@
+# vehicleColor.yml
+ShowmobileVehicleColor:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: { type: string, notnull: true }
+    hex: { type: string(6) }

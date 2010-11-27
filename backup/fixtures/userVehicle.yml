@@ -1,0 +1,18 @@
+# data/fixtures/userVehicle.yml
+ShowmobileUserVehicle:
+  1:
+    user_id: 1 # David Durost
+    vehicle_id: 1 # 2002 Taurus
+    vehicle_color_id: 1 #blue
+  2:
+    user_id: 1 # David Durost
+    vehicle_id: 2 # 1985 Mustang
+    vehicle_color_id: 2 # white
+  3:
+    user_id: 2 # Billy Bob
+    vehicle_id: 1 # 2002 Taurus
+    vehicle_color_id: 3 # red
+  3:
+    user_id: 2 # Billy Bob
+    vehicle_id: 2 # 1985 Mustang
+    vehicle_color_id: 4 # black

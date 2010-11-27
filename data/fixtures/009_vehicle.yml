@@ -1,0 +1,32 @@
+# VehicleColor
+ShowmobileVehicleColor:
+  1:
+    name: White
+    hex: ffffff
+  2:
+    name: Red
+    hex: ff0000
+  3:
+    name: Black
+    hex: 000000
+  4:
+    name: Gray
+    hex: c8c8c8
+# Vehicle
+ShowmobileVehicle:
+  1:
+    year: 2002
+    make: Ford
+    model: Taurus
+    Color: [2]
+    user_id: 1
+    mpg: 19
+    seats: 5
+  2:
+    year: 2007
+    make: Chevy
+    model: Colorado
+    Color: [3]
+    user_id: 2
+    mpg: 15
+    seats: 3

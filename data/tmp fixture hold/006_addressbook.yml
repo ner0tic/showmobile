@@ -1,0 +1,11 @@
+# data/dixtures/addressbook.yml
+
+ShowmobileAddressBook:
+  -
+    label: Physical Address
+    street: 58 River St.
+    city: Haverhill
+    zone_id: 32
+    country_id: 223
+    postal_code: 01832
+    

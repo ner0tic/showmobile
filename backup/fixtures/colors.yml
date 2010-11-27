@@ -1,0 +1,14 @@
+# data/fixtures/colors.yml
+ShowmobileVehicleColor:
+  1:
+    name: "Blue"
+    # no hex
+  2:
+    name: "White"
+    hex: "FFFFFF"
+  3:
+    name: "Red"
+    hex: "FF0000"
+  4:
+    name: "Black"
+    hex: "000000"

@@ -1,0 +1,21 @@
+# sm.showmobile_band
+ShowmobileBand:
+  1:
+  #  id: 1
+    name: 'Ignorance'
+    bio: 'bunch of assholes.'
+    url: 'http://www.myspace.com/ignoracehc'
+    email: 'ignorancehc@gmail.com'
+    zone_id: 223
+  2:
+  #  id: 2
+    name: 'Outbreak'
+    bio: 'you are scum.'
+    url: 'http://www.outbreakhc.com'
+    email: 'ryan@outbreak.com'
+    zone_id: 223
+  3:
+  #  id: 3
+    name: 'Shit Ya Pants'
+    bio: 'all shits.  no giggle.'
+    zone_id: 223

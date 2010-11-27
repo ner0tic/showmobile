@@ -1,0 +1,119 @@
+.sensiolabs html{color:#000;background:#FFF;}.sensiolabs body,.sensiolabs div,.sensiolabs dl,.sensiolabs dt,.sensiolabs dd,.sensiolabs ul,.sensiolabs ol,.sensiolabs li,.sensiolabs h1,.sensiolabs h2,.sensiolabs h3,.sensiolabs h4,.sensiolabs h5,.sensiolabs h6,.sensiolabs pre,.sensiolabs code,.sensiolabs form,.sensiolabs fieldset,.sensiolabs legend,.sensiolabs input,.sensiolabs textarea,.sensiolabs p,.sensiolabs blockquote,.sensiolabs th,.sensiolabs td{margin:0;padding:0;}.sensiolabs table{border-collapse:collapse;border-spacing:0;}.sensiolabs fieldset,.sensiolabs img{border:0;}.sensiolabs address,.sensiolabs caption,.sensiolabs cite,.sensiolabs code,.sensiolabs dfn,.sensiolabs em,.sensiolabs strong,.sensiolabs th,.sensiolabs var{font-style:normal;font-weight:normal;}.sensiolabs li{list-style:none;}.sensiolabs caption,.sensiolabs th{text-align:left;}.sensiolabs h1,.sensiolabs h2,.sensiolabs h3,.sensiolabs h4,.sensiolabs h5,.sensiolabs h6{font-size:100%;font-weight:normal;}.sensiolabs q:before,.sensiolabs q:after{content:'';}.sensiolabs abbr,.sensiolabs acronym{border:0;font-variant:normal;}.sensiolabs sup{vertical-align:text-top;}.sensiolabs sub{vertical-align:text-bottom;}.sensiolabs input,.sensiolabs textarea,.sensiolabs select{font-family:inherit;font-size:inherit;font-weight:inherit;}.sensiolabs input,.sensiolabs textarea,.sensiolabs select{*font-size:100%;}.sensiolabs legend{color:#000;}.sensiolabs del,.sensiolabs ins{text-decoration:none;}
+
+.sensiolabs
+{
+  padding: 20px 0 40px 0;
+  margin: 0;
+  background-color: #8bc268;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.sensiolabs a
+{
+  font-weight: normal;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+}
+
+.sensiolabs a:hover
+{
+  text-decoration: underline;
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+}
+
+.sensiolabs li
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0.875em;
+  line-height: 1.43em;
+}
+
+.sensiolabs .more
+{
+  font-size: 0.875em;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.sensiolabs .id_content
+{
+  width: 952px;
+  margin: 0 auto;
+  padding-left: 44px;
+}
+
+.sensiolabs h2
+{
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.sensiolabs .column
+{
+  float: left;
+  margin-bottom: 22px;
+  padding-right: 20px;
+}
+
+.sensiolabs .column_01
+{
+  width: 304px;
+}
+
+.sensiolabs .introduction
+{
+  font-family: Georgia, serif;
+  font-size: 0.875em;
+  padding-right: 10px;
+}
+
+.sensiolabs .column_02,
+.sensiolabs .column_03
+{
+  width: 304px;
+}
+
+.sensiolabs .box
+{
+  padding: 0 12px;
+  background-color: #81b75e;
+  height: 190px;
+  position: relative;
+  -moz-border-radius : 5px;
+  -webkit-border-radius: 5px;
+  border-radius : 5px;
+}
+
+
+.sensiolabs .column_03
+{
+  padding-right: 0;
+}
+
+.sensiolabs h3
+{
+  font-size: 1.188em;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 43px;
+  line-height: 2.264em;
+  border-bottom: 1px solid #add096;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.sensiolabs .logo
+{
+  text-align: right;
+}

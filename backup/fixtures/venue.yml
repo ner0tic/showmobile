@@ -1,0 +1,25 @@
+# data/fixtures/venue.yml
+ShowmobileVenue:
+  1:
+    name: "Anchors Up!"
+    address: "58 River St."
+    city: "Haverhill"
+    zone_id: 2 # mass
+    # no postal
+    phone: "15551234567"
+    # no fax
+    email: "booking@anchorsup.com"
+    url: "http://www.anchorsup.com"
+    # no logo
+    image: "achorsup.png" # /images/venues/XXX.XXX
+  2:
+    name: "Some Club"
+    address: "32 Some St."
+    city: "Portland"
+    zone_id: 1 # Maine
+    # no phone
+    # no fax
+    email: "a@b.com"
+    url: "http://www.someclub.com"
+    logo: someclub.png # /images/venues/logos/XXX.XXX
+    # no image

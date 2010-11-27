@@ -1,0 +1,132 @@
+# config/doctrine/schema.yml
+#############################
+## Misc
+#############################
+ShowmobileVehicleColor:
+  actAs:
+    Timestampable: ~
+  columns:
+    label:
+      type: string(50)
+      unique: true
+      notnull: true
+    hex_code:
+      type: string(6)
+      unique: true
+#############################
+## User Mgmt
+#############################
+ShowmobileUser:
+  actAs:
+    Timestampable: ~
+  columns:
+    username:
+      type: string(50)
+      unique: true
+    firstname:
+      type: string(100)
+      notnull: true
+    lastname:
+      type: string(100)
+      notnull: true
+    dob:
+      type: datetime
+      notnull: true
+    email:
+      type: string(128)
+      notnull: true
+      unique: true
+    password:
+      type: string(128)
+    is_active:
+      type: boolean
+      default: false
+    is_admin:
+      type: boolean
+      default: false
+    last_seen:
+      type: datetime
+#  relations:
+#############################
+## Show Mgmt
+#############################
+ShowmobileShow:
+  actAs:
+    Timestampable: ~
+  columns:
+    datetime:
+      type: timestamp
+      notnull: true
+    cost: 
+      type: float(2)
+    contact: 
+      type: string(200)
+    flyer:
+      type: string(200)
+    bands: 
+      type: string(200)
+    user_id:
+      type: int
+  relations:
+    ShowmobileUser:
+      local: user_id
+      foreign: id
+      foreignAlias: Users      
+#############################
+## Vehicle Mgmt
+#############################
+ShowmobileVehicle:
+  actAs:
+    Timestampable: ~
+  columns:
+    year:
+      type: int(4)
+      notnull: true
+    make:
+      type: string(100)
+      notnull: true
+    model: 
+      type: string(100)
+      notnull: true
+    submodel:
+      type: string(100)
+    seats:
+      type: int
+    mpg:
+      type: float(2)
+ShowmobileUserVehicle:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:
+      type: int
+      notnull: true
+    vehicle_id:
+      type: int
+      notnull: true
+    color_id:
+      type: int
+      notnull: true
+  relations:
+    ShowmobileVehicleColor:
+      local: color_id
+      foreign: id
+      foreignAlias: VehicleColors
+    ShowmobileVehicle:
+      local: vehicle_id
+      foreign: id
+      foreignAlias: UserVehicles
+    ShowmobileUser:
+      local: user_id
+      foreign: id
+      foreignAlias: Users
+ShowmobileDriver:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:
+      type: int
+      notnull: true
+    show_id:
+      type: int
+      notnull: true

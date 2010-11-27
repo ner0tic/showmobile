@@ -1,0 +1,9 @@
+ShowmobileDriver:
+  1:
+    user_id: 1
+    Vehicle: [1]
+    Event: [1]
+  2:
+    user_id: 2
+    Vehicle: [2]
+    Event: [2]

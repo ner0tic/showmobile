@@ -1,0 +1,98 @@
+#event h1
+{
+}
+
+#event h2
+{
+  margin-top: -30px;
+  font-size: 110%;
+  font-style: italic;
+  padding: 5px 20px;
+  float: right;
+  color: #fff;
+}
+
+#event h3
+{
+  font-size: 150%;
+  margin: 15px 10px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+#event h3 small
+{
+  font-size: 70%;
+  color: #5d6162;
+}
+
+#event h4
+{
+  font-size: 110%;
+  margin: 20px 10px 7px;
+  font-weight: bold;
+  color: #176f94;
+}
+
+#event .description,
+#event p.how_to_apply
+{
+  font-size: 105%;
+  line-height: 1.4em;
+  margin: 0 10px;
+  color: #333;
+}
+
+#event .flag
+{
+  float: right;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  background: #fff;
+}
+
+#event_actions
+{
+  margin: 3px 0;
+  padding: 7px;
+  padding-left: 0;
+  background-color: #ffc;
+  list-style: none;
+}
+
+#event_actions ul
+{
+  display: inline;
+}
+
+#event_actions h3
+{
+  display: inline;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 7px;
+  background-color: #eee;
+}
+
+#event_actions li
+{
+  display: inline;
+  margin-right: 7px;
+}
+
+.expires_soon
+{
+  color: red;
+}
+
+
+
+.meta
+{
+  float: right;
+  color: #77766F;
+  margin-right: 10px;
+  font-size: 85%;
+}

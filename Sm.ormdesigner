@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<orm-designer version="1.3.3.363">
+
+  <include name="config\doctrine\schema.module.xml"/>
+
+  <project code-name="Unnamed" name="sm" orm="Doctrine" visSizeX="0" visSizeX2="1229" visSizeY="0" visSizeY2="824">
+    <module-position name="showmobile" visPositionX="50" visPositionY="50"/>
+  </project>
+
+</orm-designer>

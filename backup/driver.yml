@@ -1,0 +1,7 @@
+# driver.yml
+ShowmobileDriver:
+  actAs: { Timestampable: ~ }
+  columns:
+    user_id: { type: int, notnull: true }
+    show_id: { type: int, notnull: true }
+    reserved_seats: { type: int, notnull: true, default: 0 }

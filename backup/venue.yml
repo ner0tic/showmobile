@@ -1,0 +1,15 @@
+# venue.yml
+ShowmobileVenue:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: { type: string(255), notnull: true }
+    address: { type: string(255), notnull: true }
+    city: { type: string(200), notnull: true }
+    zone_id: { type: int }
+    postal_code: { type: string, notnull: true }
+    phone: { type: string(13) }
+    fax: { type: string(13) }
+    email: { type: string }
+    url: { type: string }
+    logo: { type: string }
+    image: { type: string, notnull: true, default: "default.png" }

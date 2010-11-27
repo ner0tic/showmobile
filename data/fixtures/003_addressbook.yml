@@ -1,0 +1,17 @@
+# data/dixtures/addressbook.yml
+
+ShowmobileAddressBook:
+  -
+    label: Physical Address
+    street: 58 River St.
+    city: Haverhill
+    zone_id: 32
+    postal_code: 01832
+    
+  -
+    label: Home
+    street: 53 Evans St.
+    suburb: Apt. 2
+    city: South Portland
+    zone_id: 29
+    postal_code: 04106

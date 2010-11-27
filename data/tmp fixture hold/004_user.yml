@@ -1,0 +1,14 @@
+# data/fixtures/user.yml
+
+ShowmobileUser:
+  -
+    username: ner0tic
+    firstname: david
+    lastname: durost
+    dob: 1983-05-21
+    email: david.durost@gmail.com
+    password: gatorade
+    is_active: true
+    is_admin: true
+    last_seen: 2010-06-18 16:02:29
+    

@@ -1,0 +1,338 @@
+###################
+##           GEO
+###################
+ShowmobileCountry:
+  actAs:
+    Timestampable: ~
+  columns:
+#    id:
+#      primary: true
+#      type: int
+#      autoincrement: true
+#      notnull: true
+    name:
+      unique: true
+      type: string(64)
+      notnull: true
+    iso_code2:
+      unique: true
+      type: string(2)
+    iso_code3:
+      unique: true
+      type: string(3)
+    address_format_id:
+      type: integer
+      notnull: true
+    flag:
+      type: string
+#  relations:
+#    ShowmobileAddressFormat:
+#      local: address_format_id
+#      foreign: id
+#      onDelete: cascade      
+#      foreignAlias: addressFormats
+ShowmobileZone:
+  actAs:
+    Timestampable: ~
+  columns:
+#    id:
+#      primary: true
+#      type: int
+#      autoincrement: true
+#      notnull: true
+    country_id:
+      type: integer
+      notnull: true
+    code:
+      type: string(32)
+    name:
+      type: string(64)
+      notnull: true
+  relations:
+    Country:
+      class: ShowmobileCountry
+      local: country_id
+      foreign: id
+#      onDelete: cascade      
+###################
+## Address Book
+###################
+ShowmobileAddressBook:
+  actAs:
+    Timestampable: ~
+  columns:
+#    id:
+#      primary: true
+#      type: int
+#      autoincrement: true
+#      notnull: true
+    label:
+      type: string(30)
+    street:
+      type: string(50)
+      notnull: true
+    suburb:
+      type: string(50)
+    city:
+      type: string(30)
+      notnull: true
+    zone_id:
+      type: integer
+      notnull: true
+    postal_code:
+      type: string(10)
+      notnull: true
+  relations:
+    Zone:
+      class: ShowmobileZone
+      local: zone_id
+      foreign: id
+###################
+## Address Formatting
+###################
+ShowmobileAddressFormat:
+  actAs:
+    Timestampable: ~
+  columns:
+#    id:
+#      primary: true
+#      type: int
+#      autoincrement: true
+#      notnull: true
+    address_format:
+      type: string(128)
+      notnull: true
+    address_summary:
+      type: string(48)
+  relations:
+    Country:
+        class: ShowmobileCountry
+        local: id
+        foreign: address_format_id
+#        onDelete: cascade
+###################
+## Venue
+###################
+ShowmobileVenue:
+  actAs:
+    Timestampable: ~
+  columns:
+    name:
+      type: string(100)
+      notnull: true
+    address_book_id:
+      type: integer
+      notnull: true
+#    zone_id:
+#      type: integer
+#      notnull: true
+    phone:
+      type: integer(12)
+    fax:
+      type: integer(12)
+    url:
+      type: string(25)
+    email:
+      type: string
+    img:
+      type: string
+    logo:
+      type: string
+  relations:
+#    Zone:
+#      class: ShowmobileZone
+#      local: zone_id
+#      foreign: id
+    Address:
+      class: ShowmobileAddressBook
+      local: address_book_id
+      foreign: id
+############################
+## band
+############################
+ShowmobileBand:
+  actAs:
+    Timestampable: ~
+  columns:
+    name:
+      type: string
+      notnull: true
+    bio:
+      type: string
+    img:
+      type: string
+    logo:
+      type: string
+    url:
+      type: string
+    email:
+      type: string
+    zone_id:
+      type: integer
+#      notnull: true
+  relations:
+#    Zone:
+#      class: ShowmobileZone
+#      local: zone_id
+#      foreign: id
+#########################
+## show
+##########################
+ShowmobileEvent:
+  actAs:
+    Timestampable: ~
+  columns:
+    start_time:
+      type: timestamp
+      notnull: true
+    cost:
+      type: float
+      notnull: true
+    venue_id:
+      type: integer
+      notnull: true
+    flyer:
+      type: string
+    user_id:
+      type: integer
+      notnull: true
+    contact:
+      type: string
+  relations:
+    Venue:
+      class: ShowmobileVenue
+      local: venue_id
+      foreign: id
+    Bands:
+      foreignAlias: Events
+      class: ShowmobileBand
+      refClass: ShowmobileEventBand
+      
+ShowmobileEventBand:
+  columns:
+    showmobile_event_id:
+      type: integer
+    showmobile_band_id:
+      type: integer
+  relations:
+    Event:
+      foreignAlias: EventBands
+      class: ShowmobileEvent
+    Band:
+      foreignAlias: EventBands
+      class: ShowmobileBand
+
+ShowmobileVehicleColor:
+  actAs:
+    Timestampable: ~
+  columns:
+    name:
+      type: string
+      notnull: true
+    hex:
+      type: string
+      notnull: true
+    rgb:
+      type: string
+ShowmobileVehicle:
+  actAs:
+    Timestampable: ~
+  columns:
+    year:
+      type: integer(4)
+      notnull: true
+    make:
+      type: string
+      notnull: true
+    model:
+      type: string
+      notnull: true
+    color_id:
+      type: integer
+      notnull: true
+    mpg:
+      type: integer
+      notnull: true
+    seats:
+      type: integer
+      notnull: true
+    user_id:
+      type: integer
+      notnull: true
+  relations:
+    Color:
+      class: ShowmobileVehicleColor
+      local: color_id
+      foreign: id
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+ShowmobileDriver:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:
+      type: integer
+      notnull: true
+    vehicle_id:
+      type: integer
+      notnull: true
+    event_id:
+      type: integer
+      notnull: true
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+    Event:
+      class: ShowmobileEvent
+      local: event_id
+      foreign: id
+    Vehicle:
+      class: ShowmobileVehicle
+      local: vehicle_id
+      foreign: id
+ShowmobilePassenger:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:
+      type: integer
+      notnull: true
+    driver_id:
+      type: integer
+      notnull: true
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+    Driver:
+      class: ShowmobileDriver
+      local: driver_id
+      foreign: id
+###################
+## User Mgmt
+###################
+sfGuardUserProfile:
+  columns:
+    user_id:
+      type: integer
+    bio:
+      type: string
+    address_id:
+      type: integer
+      notnull: true
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      foreignType: one
+      foreignAlias: Profile
+    Address:
+      class: ShowmobileAddressBook
+      local: address_id
+      foreign: id

@@ -1,0 +1,31 @@
+# data/fixtures/band.yml
+## NOTE: This initial data is for testing purposes only.
+ShowmobileBand:
+  1: # id
+    name: "Ignorance"
+    bio: "bunch of dudes from Maine."
+    url: "http://www.myspace.com/ignorancehc"
+    email: "ignorancehc@gmail.com"
+    # no logo
+    # no image
+  2:
+    name: "Watchfire"
+    bio: "dudes from the valley"
+    # no url
+    # no email
+    # no logo
+    # no image
+  3:
+    name: "Word For Word"
+    # no bio
+    # no url
+    # no email
+    logo: "w4w.png" # /images/bands/logos/XXX.XXX
+    image: "w4w.png" # /images/bands/XXX.XXX
+  4:
+    name: "Yellow Stitches"
+    # no bio
+    url: "http://www.yellowstitches.com"
+    # no email
+    logo: "yellowStitches.png" # /images/bands/logos/XXX.XXX
+    image: "yellowStitches.png" # /images/bands/XXX.XXX

@@ -1,0 +1,6 @@
+# data/fixtures/venue.yml
+
+ShowmobileVenue:
+  -
+    name: Anchors Up!
+    addressbook_id: 1

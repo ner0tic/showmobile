@@ -1,0 +1,66 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+search:
+  url:  /search
+  param: { module: default, action index }
+dashboard:
+  url:  /dashboard
+  param: { module: dashboard, action: index }
+change_language:
+  url: /change_language
+  param: { module: language, action: changeLanguage }
+event_index:
+  url:  /event
+  param: { module: event, action: index}
+event_new:
+  url:  /event/new
+  param: { module: event, action: new}
+vehicle_index:
+  url:  /vehicle
+  param: { module: vehicle, action: index}
+vehicle_new:
+  url:  /vehicle/new
+  param: { module: vehicle, action: new}  
+venue_index:
+  url:  /venue
+  param: { module: venue, action: index}
+venue_new:
+  url:  /venue/new
+  param: { module: venue, action: new}  
+vehicle_color_index:
+  url:  /vehicle-color
+  param: { module: vehicleColor, action: index}
+vehicle_color_new:
+  url:  /vehicle-color/new
+  param: { module: vehicleColor, action: new}  
+driver_index:
+  url:  /driver
+  param: { module: driver, action: index}
+driver_new:
+  url:  /driver/new
+  param: { module: driver, action: new}
+#auth
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

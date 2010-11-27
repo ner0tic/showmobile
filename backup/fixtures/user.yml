@@ -1,0 +1,14 @@
+# data/fixtures/user.yml
+ShowmobileUser:
+  1:
+    fname: "David"
+    lname: "Durost"
+    dob: "21-05-83"
+    email: "david.durost@gmail.com"
+    passwd: #md5 hashed pass
+  2:
+    fname: "Billy"
+    lname: "Bob"
+    dob: "30-06-86"
+    email: "a@b.com"
+    passwd: #md5 hased pass
