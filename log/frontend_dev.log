@@ -21764,3 +21764,49 @@ Nov 27 12:15:54 symfony [info] {sfWebDebugLogger} Partial "event/_datalist" 36.6
 Nov 27 12:15:54 symfony [info] {sfWebDebugLogger} Partial "passenger/_datatable_ride" 10.93 ms (1)
 Nov 27 12:15:54 symfony [info] {sfWebDebugLogger} Partial "driver/_datatable" 8.07 ms (1)
 Nov 27 12:15:54 symfony [info] {sfWebResponse} Send content (93507 o)
+Nov 27 11:01:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Nov 27 11:01:47 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Nov 27 11:01:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 27 11:01:47 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Nov 27 11:01:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 27 11:01:47 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Nov 27 11:01:47 symfony [info] {sfBasicSecurityFilter} Action "default/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Nov 27 11:01:47 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Nov 27 11:01:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 27 11:01:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 27 11:01:47 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Nov 27 11:01:47 symfony [info] {sfPHPView} Render "/Users/mfarmer/Sites/github/showmobile/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Nov 27 11:01:47 symfony [info] {sfPartialView} Render "/Users/mfarmer/Sites/github/showmobile/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Nov 27 11:01:47 symfony [info] {sfPHPView} Decorate content with "/Users/mfarmer/Sites/github/showmobile/apps/frontend/templates/layout.php"
+Nov 27 11:01:47 symfony [info] {sfPHPView} Render "/Users/mfarmer/Sites/github/showmobile/apps/frontend/templates/layout.php"
+Nov 27 11:01:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Nov 27 11:01:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 27 11:01:47 symfony [info] {sfWebDebugLogger} Configuration 146.02 ms (12)
+Nov 27 11:01:47 symfony [info] {sfWebDebugLogger} Factories 89.92 ms (1)
+Nov 27 11:01:47 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 6.96 ms (1)
+Nov 27 11:01:47 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 17.21 ms (1)
+Nov 27 11:01:47 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 3.57 ms (1)
+Nov 27 11:01:47 symfony [info] {sfWebResponse} Send content (37407 o)
+Nov 27 11:11:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Nov 27 11:11:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Nov 27 11:11:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Nov 27 11:11:48 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Nov 27 11:11:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 27 11:11:48 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Nov 27 11:11:48 symfony [info] {sfBasicSecurityFilter} Action "default/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Nov 27 11:11:48 symfony [info] {sfFilterChain} Executing filter "sfGuardRememberMeFilter"
+Nov 27 11:11:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 27 11:11:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 27 11:11:48 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Nov 27 11:11:48 symfony [info] {sfPHPView} Render "/Users/mfarmer/Sites/github/showmobile/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Nov 27 11:11:48 symfony [info] {sfPartialView} Render "/Users/mfarmer/Sites/github/showmobile/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Nov 27 11:11:48 symfony [info] {sfPHPView} Decorate content with "/Users/mfarmer/Sites/github/showmobile/apps/frontend/templates/layout.php"
+Nov 27 11:11:48 symfony [info] {sfPHPView} Render "/Users/mfarmer/Sites/github/showmobile/apps/frontend/templates/layout.php"
+Nov 27 11:11:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Nov 27 11:11:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 27 11:11:48 symfony [info] {sfWebDebugLogger} Configuration 2.12 ms (12)
+Nov 27 11:11:48 symfony [info] {sfWebDebugLogger} Factories 36.84 ms (1)
+Nov 27 11:11:48 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 7.17 ms (1)
+Nov 27 11:11:48 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 15.31 ms (1)
+Nov 27 11:11:48 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 3.45 ms (1)
+Nov 27 11:11:48 symfony [info] {sfWebResponse} Send content (37405 o)
