@@ -1,7 +1,7 @@
 <!-- apps/frontend/modules/dashboard/templates/indexSuccess.php -->
 <?php use_stylesheet('gmap.css.php') ?>
 <?php use_stylesheet('datatable.css.php') ?>
-            <div class="pathbar">&nbsp;<?=ucwords($sf_user->getGuardUser()->getFirstName().' '.$sf_user->getGuardUser()->getLastName())?>&nbsp;&gt;&nbsp;dashboard</div>
+            <div class="pathbar">&nbsp;<?php echo ucwords($sf_user->getGuardUser()->getFirstName().' '.$sf_user->getGuardUser()->getLastName())?>&nbsp;&gt;&nbsp;dashboard</div>
             <div class="alert-center">
                 <h1>
                     {%alertTitle%}

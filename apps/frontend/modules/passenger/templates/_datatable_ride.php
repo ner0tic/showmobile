@@ -18,18 +18,18 @@
                         </th>
                     </tr>
 <?php foreach ($rides as $i => $ride): ?>
-                    <tr class="table-row <?=fmod($i,2) ? 'even-row' : 'odd-row' ?>">
-                        <td><?=$ride->getUser()->getName()?></td>
-                        <td><?=$ride->getDriver()->getEvent()->listBands()?></td>
-                        <td><?=$ride->getDriver()->getEvent()->getVenue()?></td>
-                        <td><?=format_date($ride->getDriver()->getEvent()->getStartTime(),'d t')?></td>
+                    <tr class="table-row <?php echo fmod($i,2) ? 'even-row' : 'odd-row' ?>">
+                        <td><?php echo $ride->getUser()->getName()?></td>
+                        <td><?php echo $ride->getDriver()->getEvent()->listBands()?></td>
+                        <td><?php echo $ride->getDriver()->getEvent()->getVenue()?></td>
+                        <td><?php echo format_date($ride->getDriver()->getEvent()->getStartTime(),'d t')?></td>
 <!--                        <td>
                             <div class="table-controls">
-                                <a href="<?=url_for('ride/edit?id='.$ride->getId())?>" title="edit ride information">
+                                <a href="<?php echo url_for('ride/edit?id='.$ride->getId())?>" title="edit ride information">
                                     <img src="/images/themes/rounded/icons/edit_icon.png" width="16" height="16" alt="edit ride information" />
                                     <span class="control-txt">edit</span>
                                 </a>
-                                <a href="<?=url_for('ride/delete?id='.$ride->getId())?>" title="remove ride">
+                                <a href="<?php echo url_for('ride/delete?id='.$ride->getId())?>" title="remove ride">
                                     <img src="/images/themes/rounded/icons/delete_icon.png" width="16" height="16" alt="remove ride" />
                                     <span class="control-txt">delete</span>
                                 </a>
